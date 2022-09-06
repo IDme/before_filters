@@ -30,13 +30,10 @@ end
 describe BeforeFilters do
 
   it "should run the before_filter method" do
-
     test = TestClass.new
-
     test.set_last_name("Last")
 
-    test.name.should eq("First Last")
-
+    expect(test.name).to eq("First Last")
   end
 
 end
