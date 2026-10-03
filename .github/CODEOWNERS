@@ -1,4 +1,0 @@
-*                       @IDme/engineering-leads
-config/brakeman.ignore  @IDme/product-security
-.truffleignore          @IDme/product-security
-.trivyignore            @IDme/product-security
